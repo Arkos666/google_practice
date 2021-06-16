@@ -34,6 +34,10 @@ def gen_mail_alert(Subject):
   From = "automation@example.com"
   To = getpass.getuser() + "@example.com"
   Body = "Please check your system and resolve the issue as soon as possible."
+
+  msg['Subject'] = Subject
+  msg['From'] = From
+  msg['To'] = To
   msg.set_content(Body)
   
   return msg
