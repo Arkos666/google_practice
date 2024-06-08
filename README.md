@@ -19,4 +19,4 @@ Crea reportes en diferentes formatos (como PDF) a partir de datos proporcionados
 Script principal para ejecutar varias tareas de automatización, como procesamiento de imágenes, generación de reportes y envío de correos.
 
 ### supplier_image_upload.py
-Sube imágenes de proveedores a un servidor específico, asegurando que cumplan con los requisitos de formato y dimensiones.##
+Sube imágenes de proveedores a un servidor específico, asegurando que cumplan con los requisitos de formato y dimensiones.
